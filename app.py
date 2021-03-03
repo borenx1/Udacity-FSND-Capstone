@@ -18,6 +18,14 @@ def create_app(test_config=None):
         setup_db(app, os.environ['TEST_DATABASE_URL'])
     CORS(app)
 
+    @app.route('/')
+    def index():
+        """Welcome message for root url"""
+        return jsonify({
+            'message': 'Hi',
+            'docs': 'https://github.com/borenx1/Udacity-FSND-Capstone'
+        })
+
     @app.route('/actors')
     @requires_auth("view:actors")
     def get_actors():
