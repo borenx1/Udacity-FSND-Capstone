@@ -1,6 +1,8 @@
 # Capstone Project
 
 This project for Udacity's Full Stack Nanodegree Program using the Casting Agency specifications.
+
+This is an API hosted on https://capstone-udacity-boren.herokuapp.com/.
 ## Casting Agency
 The Casting Agency models a company that is responsible for creating movies and managing and assigning actors to those movies. You are an Executive Producer within the company and are creating a system to simplify and streamline your process.
 
@@ -248,6 +250,7 @@ eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ijh4WmkwQTJDS205bmdrZmVwb21xZCJ9.eyJ
 eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ijh4WmkwQTJDS205bmdrZmVwb21xZCJ9.eyJpc3MiOiJodHRwczovL2JvcmVueC5hdS5hdXRoMC5jb20vIiwic3ViIjoiYXV0aDB8NjAxY2IzNjM5YWNiYzIwMDZhYjhlZjY2IiwiYXVkIjoiY2Fwc3RvbmUiLCJpYXQiOjE2MTQ2NTg4NTEsImV4cCI6MTYxNTUyMjg1MSwiYXpwIjoiN2FqT2RhZ0NuelJQbTlSa0lWcFpzbkJvbGlBdHhlaVYiLCJwZXJtaXNzaW9ucyI6WyJhZGQ6YWN0b3IiLCJhZGQ6bW92aWUiLCJkZWxldGU6YWN0b3IiLCJkZWxldGU6bW92aWUiLCJ1cGRhdGU6YWN0b3IiLCJ1cGRhdGU6bW92aWUiLCJ2aWV3OmFjdG9ycyIsInZpZXc6bW92aWVzIl19.aGyZjGeUG5xxnTEFIhyT8T4EetA0IqPdje6HpX3f5rxJesDdMzUN-kD8nFsEBe3YEnlo8vyetDY_popx5Ny7MSvi036Y--IsyTQwxVLrxhS-OdyUGxkfPfapIpk6IWw4MpGfb1wWFGZDxO0Arxq82G0cFeLdxhTacoKmlY8VlrSuIMe3iaQxQyOmhQJbJJvJwm6Hil9UI3QAYkLunQf5bbrCOXZpLRHWbdSGYl54o-RC7y82LTGRKGh-FEYnDjbjUml5wfD0RIXCbUDZCx_Vpgcq-AUIlI58S6IUnXguRw5ZZ32cfWcCVmopTIqgitd_FjDeNO6Fi3nqzIfI0KJDVg
 
 ### How to run on your environment
+This app requirements Python 3.7+ to run.
 - Install the python dependencies by running `pip install -r requirements.txt`, optionally in a virtual environment
 - Create a new PostgreSQL database
 - Set the environment variable `DATABASE_URL` to url of the PostgreSQL database in Flask-SQLAlchmeny config format,
