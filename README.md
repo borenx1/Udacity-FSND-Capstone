@@ -3,6 +3,7 @@
 This project for Udacity's Full Stack Nanodegree Program using the Casting Agency specifications.
 
 This is an API hosted on https://capstone-udacity-boren.herokuapp.com/.
+
 ## Casting Agency
 The Casting Agency models a company that is responsible for creating movies and managing and assigning actors to those movies. You are an Executive Producer within the company and are creating a system to simplify and streamline your process.
 
@@ -178,14 +179,14 @@ HTTP errors return a JSON object corresponding to the status codes.
   ```json
   {
     "error": 401,
-    "message": specific error message
+    "message": "specific error message"
   }
   ```
 - 403 - Forbidden
   ```json
   {
     "error": 403,
-    "message": specific error message
+    "message": "specific error message"
   }
   ```
 - 404 - Not found
